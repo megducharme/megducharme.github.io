@@ -155,7 +155,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(https://scontent-atl3-1.xx.fbcdn.net/t31.0-8/12794843_886030634829198_5869856291687409922_o.jpg) no-repeat center center scroll;
+    background: url(../img/megmountain.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -165,7 +165,7 @@ hr.small {
 /* About */
 
 .about {
-    padding: 50px 0;
+    padding: 50px 0 5px 0;
 }
 
 /* Services */
@@ -176,7 +176,7 @@ hr.small {
 
 .services {
     padding: 50px 0;
-    background-color: #94B370;
+    background-color: #628647;
 }
 
 .service-item {
@@ -192,9 +192,9 @@ hr.small {
 .callout {
     display: table;
     width: 100%;
-    height: 500px;
+    height: 700px;
     color: #fff;
-    background: url(../img/thailand.jpg) no-repeat center center scroll;
+    background: url(..//img/waterfall.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -204,7 +204,8 @@ hr.small {
 /* Portfolio */
 
 .portfolio {
-    padding: 50px 0;
+    padding-bottom: 50px;
+    padding-top: 30px;
 }
 
 .portfolio-item {
@@ -217,6 +218,19 @@ hr.small {
 
 .img-portfolio:hover {
     opacity: 0.8;
+}
+
+/* TECHNOLOGIES */
+
+.imgresize {
+    width: 55px;
+    height: 55px;
+    display: block;
+    text-align: center;
+}
+
+.imgdescription {
+    text-align: center;
 }
 
 /* Call to Action */
@@ -249,7 +263,7 @@ hr.small {
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    /*padding: 100px 0;*/
 }
 
 #to-top {
@@ -257,4 +271,39 @@ footer {
   position: fixed;
   bottom: 5px;
   right: 5px;
+}
+
+footer {
+    background-color: #EFF0F2;
+}
+
+.footerContact {
+    text-align: left;
+    float: left;
+}
+
+.footerContact li {
+    text-align: left;
+}
+
+.footerLinkIcons li {
+    text-align: right;
+    display: inline-block;
+    float:right;
+}
+
+.techimgs {
+    margin: 0 auto;
+}
+
+.topimgs {
+    margin-bottom: 40px;
+}
+
+.techimgdiv {
+    padding: 0;
+}
+
+.techimgtop {
+    margin-bottom: 25px;
 }
