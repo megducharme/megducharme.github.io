@@ -176,7 +176,7 @@ hr.small {
 
 .services {
     padding: 50px 0;
-    background-color: #628647;
+    background-image: url(..//img/background.png) no-repeat center center scroll;
 }
 
 .service-item {
@@ -301,9 +301,14 @@ footer {
 }
 
 .techimgdiv {
-    padding: 0;
+    margin: 0;
 }
 
 .techimgtop {
     margin-bottom: 25px;
+}
+
+.stevejobs {
+    font-weight: 100;
+    line-height: 23px;
 }
